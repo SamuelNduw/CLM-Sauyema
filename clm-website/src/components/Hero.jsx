@@ -1,14 +1,13 @@
 import { useState, useEffect} from 'react';
 import Navbar from './Navbar';
-import churchbg from '../assets/churchbg.png';
-import image1 from '../assets/image1.jpg';
-import image2 from '../assets/image2.jpg';
-import image3 from '../assets/image3.jpg';
-import image4 from '../assets/image4.jpg';
-import image5 from '../assets/image5.jpg';
+import image1 from '../assets/image1.webp';
+import image2 from '../assets/image2.webp';
+import image3 from '../assets/image3.webp';
+import image4 from '../assets/image4.webp';
+import image5 from '../assets/image5.webp';
 
 const Hero = () => {
-  const images = [churchbg, image1, image2, image3, image4, image5];
+  const images = [image1, image2, image3, image4, image5];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(true);
 

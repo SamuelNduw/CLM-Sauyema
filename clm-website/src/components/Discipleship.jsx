@@ -1,6 +1,6 @@
 import React from 'react';
-import PaintImg from '../assets/paintbg2.jpg';
-import DiscipleshipImg from '../assets/discipleshipImg.png';
+import PaintImg from '../assets/paintbg2.webp';
+import DiscipleshipImg from '../assets/discipleshipImg.webp';
 
 const Discipleship = () => {
   return (

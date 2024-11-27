@@ -1,8 +1,8 @@
 import React from 'react';
-import Service1 from '../assets/serviceImg1.jpg';
+import Service1 from '../assets/serviceImg1.webp';
 import Service2 from '../assets/serviceImg2.jpg';
-import Service3 from '../assets/serviceImg3.jpg';
-import Service4 from '../assets/serviceImg4.jpg';
+import Service3 from '../assets/serviceImg3.webp';
+import Service4 from '../assets/serviceImg4.webp';
 import ServiceCard from './ServiceCard';
 
 
