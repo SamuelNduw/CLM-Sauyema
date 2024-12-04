@@ -8,7 +8,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
-import Vision from './components/Vision.jsx';
+import About from './pages/About.jsx'
+import FindUs from './pages/FindUs.jsx';
+import Youth from './pages/Youth.jsx';
 
 const router = createBrowserRouter([
   {
@@ -17,7 +19,9 @@ const router = createBrowserRouter([
   errorElement: <h1>Error 404 Couldn't find page</h1>,
   children: [
     { index: true, element: <Home />},
-    { path: 'about', element: <Vision />}
+    { path: 'about', element: <About />},
+    { path: 'find-us', element: <FindUs />},
+    { path: 'youth', element: <Youth />}
     ]
   },
 ])

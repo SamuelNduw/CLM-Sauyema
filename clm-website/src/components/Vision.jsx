@@ -2,8 +2,8 @@ import React from 'react'
 
 const Vision = () => {
   return (
-    <div className='bg-[#ffffff] flex justify-center'>
-        <div className='container py-16 md:py-14 flex flex-col gap-10 items-center'>
+    <div className=' flex justify-center'>
+        <div className='container py-16 md:py-14 flex flex-col gap-32 items-center'>
             <div className='flex flex-col gap-5 items-center w-4/5 md:w-2/3'>
                 <h1 className='uppercase text-[2.5rem] md:text-[3rem] font-semibold text-center'>Our Vision</h1>
                 <h2 className='text-center'>Christlike Faith, Love, Truth, Holiness And Righteousness For All Nations. <br></br> - 1 Timothy 1:5</h2>

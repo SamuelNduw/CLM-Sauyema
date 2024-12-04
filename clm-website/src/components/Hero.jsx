@@ -1,5 +1,6 @@
 import { useState, useEffect} from 'react';
 import Navbar from './Navbar';
+import { Link } from 'react-router-dom'
 import image1 from '../assets/image1.webp';
 import image2 from '../assets/image2.webp';
 import image3 from '../assets/image3.webp';
@@ -57,12 +58,12 @@ const Hero = () => {
         </div>
 
         <div className="w-2/3 ml-16 text-white py-10">
-          <a
+          <Link to="/about"
             href=""
             className="px-4 py-2 border border-white hover:bg-slate-500 text-lg font-semibold transition duration-300 ease-in-out"
           >
             ABOUT US
-          </a>
+          </Link>
         </div>
       </div>
     </div>

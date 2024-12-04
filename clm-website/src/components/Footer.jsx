@@ -20,7 +20,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div className='pt-8 italic text-white flex flex-col items-center'>
+            {/* <div className='pt-8 italic text-white flex flex-col items-center'>
               <h1>Powered by</h1> 
               <a href="https://samuelnduw.netlify.app/">
                 <img src={SamLogo} alt="Samuel Nduw Logo" className='w-16 bg-white rounded-full' />
@@ -28,7 +28,7 @@ const Footer = () => {
             </div>
             <div className='text-white text-center uppercase textShadow pb-4 pt-2'>
               Copyright &copy; 2024 CLM Sauyemwa
-            </div>
+            </div> */}
         </div>
     </footer>
   )

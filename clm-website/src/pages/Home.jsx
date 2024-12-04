@@ -13,9 +13,8 @@ const Home = () => {
         <Hero />
         <Anchor />
         <Services />
-        <PicBoard />
         <Discipleship />
-        <Vision />
+        <PicBoard />
         <Footer />
     </>
   );
