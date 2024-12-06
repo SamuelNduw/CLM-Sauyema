@@ -8,7 +8,7 @@ import image4 from '../assets/image4.webp';
 import image5 from '../assets/image5.webp';
 
 const Hero = () => {
-  const images = [image1, image2, image3, image4, image5];
+  const images = [image1, image5, image3, image4, image2];
   const [currentIndex, setCurrentIndex] = useState(0);
   const [fade, setFade] = useState(true);
 
