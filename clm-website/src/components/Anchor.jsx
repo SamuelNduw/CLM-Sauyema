@@ -12,12 +12,12 @@ const Anchor = () => {
             }}>
             </div>
             <div className=' text-[#2ea7e4] flex flex-col gap-5'>
-                <h1 className='text-[2.5rem] md:text-[3rem] font-semibold'>2024 ANCHOR</h1>
+                <h1 className='text-[2.5rem] md:text-[3rem] font-semibold'>2025 ANCHOR</h1>
                 <h2>
-                    “This is eternal life, that they may know you, <br></br>
-                    the only true God, and Jesus Christ <br></br>
-                    whom you have sent.” <br></br> 
-                    - John 17:3
+                    “And they overcame him by the blood of the Lamb <br></br>
+                    and by the word of their testimony, and they <br></br>
+                    did not love their lives to the death.” <br></br> 
+                    - Revelation 12:11
                 </h2>
             </div>
         </div>

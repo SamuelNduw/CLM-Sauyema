@@ -5,7 +5,7 @@ import SamLogo from '../assets/SamuelLogo transparent.png';
 const Footer = () => {
   return (
     <footer className='w-full'>
-        <div className='w-full bg-blue-500 flex flex-col items-center'>
+        <div className='w-full bg-[#00c2ff] flex flex-col items-center'>
             <div className='container flex flex-col items-center justify-center px-8 py-8 gap-5'>
               <h1 className='uppercase text-white text-[1.25rem]'>
                 Christ's Love Ministies Sauyemwa

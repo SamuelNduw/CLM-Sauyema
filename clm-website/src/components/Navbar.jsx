@@ -29,9 +29,9 @@ const Navbar = () => {
               Home
             </NavLink>
           </li>
-          <li className='cursor-pointer hover:bg-black hover:text-white transition duration-200 ease-in-out px-2 custom-1:px-4 py-2 rounded-full'>
+          {/* <li className='cursor-pointer hover:bg-black hover:text-white transition duration-200 ease-in-out px-2 custom-1:px-4 py-2 rounded-full'>
             Upcoming Events
-          </li>
+          </li> */}
           <li className='cursor-pointer hover:bg-black hover:text-white transition duration-200 ease-in-out px-2 custom-1:px-4 py-2 rounded-full'>
             <NavLink to="/youth">
               Youth
@@ -66,9 +66,9 @@ const Navbar = () => {
                 Home
               </NavLink>
             </li>
-            <li className='p-4 border-b border-gray-600 flex items-center gap-3'>
+            {/* <li className='p-4 border-b border-gray-600 flex items-center gap-3'>
               <FaCalendarAlt/>Upcoming Events
-            </li>
+            </li> */}
             <li className='p-4 border-b border-gray-600'>
               <NavLink to="/youth" className="flex items-center gap-3">
                 <BiSolidChurch/>Youth

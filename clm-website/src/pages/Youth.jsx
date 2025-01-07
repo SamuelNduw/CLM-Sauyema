@@ -1,10 +1,10 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import image1 from "../assets/image5.webp";
-import image2 from "../assets/youthImg.webp";
-import image3 from "../assets/youthImg1.webp";
-import image4 from "../assets/youthImg2.webp";
-import image5 from "../assets/youthImg4.webp";
+import image2 from "../assets/youthImg7.webp";
+import image3 from "../assets/youthImg6.webp";
+import image4 from "../assets/youthImg5.webp";
+import image5 from "../assets/youthImg9.webp";
 import PicBoard from "../components/PicBoard";
 import Footer from "../components/Footer";
 
@@ -48,7 +48,7 @@ const Youth = () => {
       </div>
 
       <div className="relative pt-10 px-6">
-        <div className="md:flex items-center h-[600px] bg-[#d9d9d9] my-10 container hidden overflow-hidden">
+        <div className="md:flex items-center h-[600px] bg-[#d9d9d900] my-10 container hidden overflow-hidden">
         {/* First Col */}
           <div className="relative w-1/2 h-full mr-2">
             <img src={image4} alt="" className="h-full w-full object-cover" />
@@ -89,7 +89,7 @@ const Youth = () => {
 
         <div className="md:flex block gap-3">
         {/* Section 1 */}
-        <div className="mb-8 flex flex-col items-center bg-[#d9d9d9] p-5">
+        <div className="mb-8 flex flex-col items-center bg-[#00000006] p-5 rounded-xl">
           <img
             src={image5}
             alt="Faith in Action"
@@ -106,7 +106,7 @@ const Youth = () => {
         </div>
 
         {/* Section 2 */}
-        <div className="mb-8 flex flex-col items-center bg-[#d9d9d9] p-5">
+        <div className="mb-8 flex flex-col items-center bg-[#00000006] p-5 rounded-xl">
           <img
             src={image3}
             alt="Building Lifelong Connections"
@@ -125,7 +125,7 @@ const Youth = () => {
         </div>
 
         {/* Section 3 */}
-        <div className="mb-8 flex flex-col items-center bg-[#d9d9d9] p-5">
+        <div className="mb-8 flex flex-col items-center bg-[#00000006] p-5 rounded-xl">
           <img
             src={image4}
             alt="Preparing for the Future"
@@ -141,8 +141,8 @@ const Youth = () => {
         </div>
         </div>
       </div>
-
       <PicBoard />
+      
       <Footer />
     </>
   );

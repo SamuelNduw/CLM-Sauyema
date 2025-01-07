@@ -50,7 +50,7 @@ filter: grayscale(30%);
 .embla {
   --slide-spacing: 1rem;
   --slide-size: 100%;
-  --slide-height: 19rem;
+  --slide-height: 25rem;
   padding: 1.6rem;
 }
 .embla__viewport {
