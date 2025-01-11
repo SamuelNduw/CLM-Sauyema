@@ -4,6 +4,7 @@ import Anchor from '../components/Anchor';
 import Services from '../components/Services';
 import Discipleship from '../components/Discipleship';
 import Footer from '../components/Footer';
+import SocialMedia from "./SocialMedia";
 
 const Home = () => {
   return (
@@ -11,6 +12,7 @@ const Home = () => {
         <Hero />
         <Anchor />
         <Discipleship />
+        <SocialMedia />
         <Services />
         <Footer />
     </>

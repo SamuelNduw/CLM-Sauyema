@@ -14,11 +14,17 @@ const InstagramEmbed = () => {
     };
   }, []);
 
+  useEffect(() => {
+    if (window.instgrm){
+      window.instgrm.Embeds.process();
+    }
+  });
+
   return (
     <div>
       <blockquote
         className="instagram-media"
-        data-instgrm-captioned
+        // data-instgrm-captioned
         data-instgrm-permalink="https://www.instagram.com/reel/C1tZo3NMBRI/?utm_source=ig_embed&amp;utm_campaign=loading"
         data-instgrm-version="14"
         style={{

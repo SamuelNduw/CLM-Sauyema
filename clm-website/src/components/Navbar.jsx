@@ -9,7 +9,7 @@ import { FaLocationDot } from "react-icons/fa6";
 import { NavLink } from 'react-router-dom';
 
 
-const Navbar = () => {
+const Navbar = (props) => {
     
   const [nav, setNav] = useState(true);
   const handleNav = () => {
@@ -49,7 +49,7 @@ const Navbar = () => {
           </li>
         </ul>
         <div onClick={handleNav} className='block md:hidden'>
-          {!nav ? <AiOutlineClose size={20} /> : <AiOutlineMenu size={20}/>}
+          {!nav ? <AiOutlineClose size={20} color={props.color} /> : <AiOutlineMenu size={20} color={props.color} />}
         </div>
         <div className={!nav ? 'fixed z-20 left-0 top-0 w-[60%] h-full border-r border-r-gray-600 glass-effect translate-x-0 transition duration-300 ease-in-out block md:hidden' : 'fixed -translate-x-full transition duration-200 ease-in block md:hidden'}>
           <div className='ml-5 mt-5 text-white flex items-center gap-5'>

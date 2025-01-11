@@ -13,7 +13,7 @@ const Youth = () => {
     <>
       <div className="relative w-full h-[90vh] overflow-hidden">
         {/* Navbar */}
-        <Navbar />
+        <Navbar color="white"/>
 
         {/* Fullscreen Background Image */}
         <div
@@ -48,7 +48,7 @@ const Youth = () => {
       </div>
 
       <div className="relative pt-10 px-6">
-        <div className="md:flex items-center h-[600px] bg-[#d9d9d900] my-10 container hidden overflow-hidden">
+        <div className="md:flex items-center mx-auto h-[600px] bg-[#d9d9d900] my-10 container hidden overflow-hidden">
         {/* First Col */}
           <div className="relative w-1/2 h-full mr-2">
             <img src={image4} alt="" className="h-full w-full object-cover" />
@@ -95,9 +95,9 @@ const Youth = () => {
             alt="Faith in Action"
             className="w-80 h-60 object-cover rounded-lg"
           />
-          <div className="md:ml-6 text-center md:text-left mt-4 md:mt-0">
+          <div className="md:ml-6 text-center md:text-left mt-4 md:mt-6">
             <h2 className="text-2xl font-semibold text-center">Faith in Action</h2>
-            <p className="text-md mt-2 text-center">
+            <p className="text-md mt-2 text-center text-[#00000096]">
               Our youth are empowered to live their faith in everyday life. Join
               us for programs that strengthen spiritual growth and community
               impact.
@@ -112,11 +112,11 @@ const Youth = () => {
             alt="Building Lifelong Connections"
             className="w-80 h-60 object-cover rounded-lg"
           />
-          <div className="md:ml-6 text-center md:text-left mt-4 md:mt-0">
+          <div className="md:ml-6 text-center md:text-left mt-4 md:mt-6">
             <h2 className="text-2xl font-semibold text-center">
               Building Lifelong Connections
             </h2>
-            <p className="text-md mt-2 text-center">
+            <p className="text-md mt-2 text-center text-[#00000096]">
               Experience meaningful relationships through our youth events and
               small groups. Together, we create a supportive and uplifting
               environment.
@@ -131,9 +131,9 @@ const Youth = () => {
             alt="Preparing for the Future"
             className="w-80 h-60 object-cover rounded-lg"
           />
-          <div className="md:ml-6 text-center md:text-left mt-4 md:mt-0">
+          <div className="md:ml-6 text-center md:text-left mt-4 md:mt-6">
             <h2 className="text-2xl font-semibold text-center">Preparing for the Future</h2>
-            <p className="text-md mt-2 text-center">
+            <p className="text-md mt-2 text-center text-[#00000096]">
               We equip our youth with skills and confidence for life ahead. From
               leadership opportunities to mentorship, the future is bright.
             </p>

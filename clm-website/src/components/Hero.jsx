@@ -40,7 +40,7 @@ const Hero = () => {
       ></div>
 
       {/* Hero Content */}
-      <Navbar />
+      <Navbar  color="white" />
       <div className="flex flex-col justify-center h-full sm:pt-20 md:pt-36 sm:pb-10 md:pb-24">
         <div className="w-2/3 ml-16 text-white">
           <div>

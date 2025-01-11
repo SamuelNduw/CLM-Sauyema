@@ -4,7 +4,10 @@ import Footer from "../components/Footer";
 import Skeleton from "react-loading-skeleton";
 import "react-loading-skeleton/dist/skeleton.css";
 
-import churchBuilding from "../assets/churchBuilding.png";
+import churchBuilding from "../assets/findusImg.webp";
+import churchBuilding1 from "../assets/findusImg1.webp";
+import churchBuilding2 from "../assets/findusImg2.webp";
+import InstagramEmbed from "../components/InstagramEmbed";
 
 const FindUs = () => {
   const [loading, setLoading] = useState(true);
@@ -76,6 +79,12 @@ const FindUs = () => {
           }`}
         />
       </div>
+      <div className="container mx-auto maw-w-2xl flex flex-col md:flex-row justify-center px-5 my-5 md:my-2 pb-16 gap-2">
+        <img src={churchBuilding1} alt="" className="h-36 sm:h-48" />
+        <img src={churchBuilding2} alt="" className="h-36 sm:h-48"/>
+      </div>
+
+      
       {/* Footer */}
       <Footer />
     </>
