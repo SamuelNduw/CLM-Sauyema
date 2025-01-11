@@ -7,7 +7,6 @@ import "react-loading-skeleton/dist/skeleton.css";
 import churchBuilding from "../assets/findusImg.webp";
 import churchBuilding1 from "../assets/findusImg1.webp";
 import churchBuilding2 from "../assets/findusImg2.webp";
-import InstagramEmbed from "../components/InstagramEmbed";
 
 const FindUs = () => {
   const [loading, setLoading] = useState(true);
