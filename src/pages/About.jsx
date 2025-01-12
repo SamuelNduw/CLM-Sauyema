@@ -3,7 +3,7 @@ import Vision from "../components/Vision";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
-import image1 from "../assets/pastor.jpg";
+import image1 from "../assets/PastorSoji.webp";
 
 const About = () => {
   return (
