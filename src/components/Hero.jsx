@@ -10,15 +10,10 @@ import image5 from '../assets/image5.webp';
 const Hero = () => {
   const images = [image1, image5, image3, image4, image2];
   const [currentIndex, setCurrentIndex] = useState(0);
-  const [fade, setFade] = useState(true);
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setFade(false); // Trigger fade-out effect
-      setTimeout(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-        setFade(true); // Trigger fade-in effect
-      }, 150); // Match the fade-out duration
     }, 4300); // Total time between image changes
 
     return () => clearInterval(interval);
@@ -28,16 +23,16 @@ const Hero = () => {
     <div className="relative w-full h-screen overflow-hidden">
       {/* Background Layer */}
       <div
-        className={`absolute inset-0 transition-opacity duration-150 ${
-          fade ? 'opacity-100' : ' opacity-85'
-        }`}
+        className={`absolute inset-0 `}
         style={{
           backgroundImage: `url(${images[currentIndex]})`,
           backgroundSize: 'cover',
           backgroundPosition: 'center',
           zIndex: -1,
         }}
-      ></div>
+      >
+      </div>
+
 
       {/* Hero Content */}
       <Navbar  color="white" />
