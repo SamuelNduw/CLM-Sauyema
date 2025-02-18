@@ -19,7 +19,7 @@ const Hero = () => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
         setFade(true); // Trigger fade-in effect
       }, 150); // Match the fade-out duration
-    }, 3300); // Total time between image changes
+    }, 4300); // Total time between image changes
 
     return () => clearInterval(interval);
   }, [images.length]);

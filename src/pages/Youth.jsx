@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../components/Navbar";
-import image1 from "../assets/image5.webp";
+import image1 from "../assets/youthImg1.webp";
 import image2 from "../assets/youthImg7.webp";
 import image3 from "../assets/youthImg6.webp";
 import image4 from "../assets/youthImg5.webp";
@@ -17,7 +17,7 @@ const Youth = () => {
 
         {/* Fullscreen Background Image */}
         <div
-          className="absolute inset-0 bg-cover bg-center -z-10"
+          className="absolute inset-0 bg-cover bg-center -z-10 "
           style={{
             backgroundImage: `url(${image1})`,
           }}
@@ -28,7 +28,7 @@ const Youth = () => {
           <h1 className="uppercase md:text-[3.5rem] text-[2.5rem] font-bold textShadow">
             Youth Empowerment
           </h1>
-          <p className="text-lg mt-2 textShadow">
+          <p className="text-lg mt-2 textShadowDark">
             Building a foundation of faith and purpose
           </p>
         </div>
