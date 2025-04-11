@@ -14,7 +14,7 @@ const ServiceCard = ({image, cardText, cardTime}) => {
                     <span className='block font-semibold'>{cardTime}</span>
                 </h1>
             </div>
-            </div>
+        </div>
     </div>
   )
 }
