@@ -12,18 +12,25 @@ const Hero = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
+    images.forEach((img) => {
+      const image = new Image();
+      image.src = img;
+    });
+  }, [])
+
+  useEffect(() => {
     const interval = setInterval(() => {
         setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
-    }, 8000); // Total time between image changes
+    }, 7000); // Total time between image changes
 
     return () => clearInterval(interval);
-  }, [images.length]);
+  }, []);
 
   return (
     <div className="relative w-full h-screen overflow-hidden">
       {/* Background Layer */}
       <div
-        className={`absolute inset-0 `}
+        className={`absolute inset-0 transition-opacity duration-500 ease-in-out`}
         style={{
           backgroundImage: `url(${images[currentIndex]})`,
           backgroundSize: 'cover',
